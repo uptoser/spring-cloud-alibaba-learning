@@ -1,12 +1,17 @@
 dubbo:
+  protocol:
+    port: 20881
   cloud:
-    subscribed-services: spring-cloud-dubbo-provider-zookeeper
+    subscribed-services: spring-cloud-dubbo-provider
 
 spring:
   application:
     name: spring-cloud-dubbo-consumer
   cloud:
-    zookeeper:
+    nacos:
       discovery:
-        register: false #表示服务是否需要注册到注册中心
-      connect-string: 192.168.3.200:2181 #表示ZooKeeper的连接字符串
+        server-addr: 192.168.3.200:8848
+#    zookeeper:
+#      discovery:
+#        register: false #表示服务是否需要注册到注册中心
+#      connect-string: 192.168.3.200:2181 #表示ZooKeeper的连接字符串

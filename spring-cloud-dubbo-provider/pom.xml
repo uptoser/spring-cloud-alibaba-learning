@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.uptoser</groupId>
-            <artifactId>spring-cloud-dubbo-sample-api</artifactId>
+            <artifactId>spring-cloud-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

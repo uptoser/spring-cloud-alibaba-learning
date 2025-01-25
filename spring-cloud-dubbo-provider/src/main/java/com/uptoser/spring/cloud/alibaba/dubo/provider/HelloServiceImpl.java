@@ -20,7 +20,7 @@ import org.springframework.beans.factory.annotation.Value;
  * • LeastActive LoadBalance，最少活跃调用书。处理较慢的节点将会收到更少的请求。
  * • ConsistentHash LoadBalance，一致性Hash。相同参数的请求总是发送到同一个服务提供者。
  */
-@DubboService(cluster = "failfast",loadbalance="roundRobin")
+@DubboService(cluster = "failfast",loadbalance="roundrobin")
 public class HelloServiceImpl implements IHelloService {
     @Value("${dubbo.application.name}")
     private String serviceName;

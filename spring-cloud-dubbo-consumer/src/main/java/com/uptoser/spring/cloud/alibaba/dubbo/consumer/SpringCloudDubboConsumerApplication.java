@@ -8,5 +8,6 @@ public class SpringCloudDubboConsumerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudDubboConsumerApplication.class, args);
+        System.out.println("http://localhost:8080/say");
     }
 }
