@@ -38,14 +38,7 @@
                     <artifactId>spring-context-support</artifactId>
                 </exclusion>
             </exclusions>
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <groupId>org.springframework.cloud</groupId>-->
-<!--                    <artifactId>spring-cloud-context</artifactId>-->
-<!--                </exclusion>-->
-<!--            </exclusions>-->
         </dependency>
-
     </dependencies>
 
 
