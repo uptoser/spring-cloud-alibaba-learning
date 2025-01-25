@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @DubboComponentScan//Dubbo的扫描注解
 @SpringBootApplication
-public class SpringCloudDubboProviderZookeeperApplication {
+public class SpringCloudDubboProviderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudDubboProviderZookeeperApplication.class, args);
+        SpringApplication.run(SpringCloudDubboProviderApplication.class, args);
     }
 }

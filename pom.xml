@@ -10,7 +10,7 @@
 
     <modules>
         <module>spring-cloud-sample-api</module>
-        <module>spring-cloud-dubbo-provider-zookeeper</module>
+        <module>spring-cloud-dubbo-provider</module>
         <module>spring-cloud-dubbo-consumer</module>
     </modules>
 
