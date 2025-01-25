@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-cloud-dubbo-sample-api</module>
+        <module>spring-cloud-sample-api</module>
         <module>spring-cloud-dubbo-provider-zookeeper</module>
         <module>spring-cloud-dubbo-consumer</module>
     </modules>
