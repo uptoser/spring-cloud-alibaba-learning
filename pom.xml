@@ -12,6 +12,7 @@
         <module>spring-cloud-api</module>
         <module>spring-cloud-dubbo-provider</module>
         <module>spring-cloud-dubbo-consumer</module>
+        <module>spring-cloud-nacos-config</module>
     </modules>
 
     <parent>

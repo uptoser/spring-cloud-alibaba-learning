@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.3.200:8848
+#        prefix: example #默认会加载${spring.application.name}.${file-extension：properties}
+        file-extension: yaml #也可以指定YAML格式的配置
+#        extension-configs:
+#          - data-id:
+#            group:
+#            refresh:
