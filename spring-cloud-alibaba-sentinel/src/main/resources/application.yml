@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-cloud-alibaba-sentinel
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 192.168.3.200:8858 #指向的是Sentinel Dashboard的服务器地址
+server:
+  port: 8090

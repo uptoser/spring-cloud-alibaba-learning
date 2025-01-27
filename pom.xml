@@ -15,6 +15,8 @@
         <module>spring-cloud-alibaba-nacos-config-8080</module>
         <module>spring-cloud-alibaba-rocketmq-consumer</module>
         <module>spring-cloud-alibaba-rocketmq-producer</module>
+        <module>spring-cloud-alibaba-sentinel</module>
+        <module>spring-cloud-alibaba-sentinel-dynamic</module>
     </modules>
 
     <parent>

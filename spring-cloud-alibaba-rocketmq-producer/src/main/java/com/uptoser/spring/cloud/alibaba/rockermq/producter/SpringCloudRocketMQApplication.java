@@ -10,7 +10,7 @@ import org.springframework.cloud.stream.messaging.Source;
 
 @SpringBootApplication
 @EnableBinding({Sink.class,Source.class, CustomChannelBinder.class})
-public class Application {
+public class SpringCloudRocketMQApplication {
 
 
     @StreamListener(value = CustomChannelBinder.TRANSACTION_INPUT)
@@ -46,6 +46,6 @@ public class Application {
 //    }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(SpringCloudRocketMQApplication.class, args);
     }
 }

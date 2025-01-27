@@ -8,7 +8,7 @@ import org.springframework.cloud.stream.messaging.Sink;
 
 @SpringBootApplication
 @EnableBinding({Sink.class})
-public class Application {
+public class SpringCloudRocketMQApplication {
 
     @StreamListener(value = Sink.INPUT)
     public void receive(String msg){
@@ -16,6 +16,6 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(SpringCloudRocketMQApplication.class, args);
     }
 }

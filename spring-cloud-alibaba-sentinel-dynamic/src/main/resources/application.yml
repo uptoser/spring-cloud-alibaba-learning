@@ -1,0 +1,20 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: spring-cloud-alibaba-sentinel-dynamic
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 192.168.3.200:8858 #指向的是Sentinel Dashboard的服务器地址
+        port: 8720
+      datasource:
+        ds:
+          nacos: #目前支持redis、apollo、zk、file、nacos，选择什么类型的数据源就配置相应的key即可
+            server-addr: 192.168.3.200:8848
+            username: nacos
+            password: nacos
+            data-id: ${spring.application.name}-flow
+            group-id: DEFAULT_GROUP
+            data-type: json #提供了JSON和XML两种格式。如果需要自定义，则可以将值配置为custom，并配置converter-class指向converter类
+            rule-type: flow #表示数据源中规则属于哪种类型，如flow、degrade、param-flow、gw-flow等
