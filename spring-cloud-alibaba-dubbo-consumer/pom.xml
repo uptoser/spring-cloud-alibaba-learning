@@ -7,13 +7,13 @@
         <groupId>com.uptoser</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>spring-cloud-dubbo-consumer</artifactId>
+    <artifactId>spring-cloud-alibaba-dubbo-consumer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
             <groupId>com.uptoser</groupId>
-            <artifactId>spring-cloud-api</artifactId>
+            <artifactId>spring-cloud-alibaba-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

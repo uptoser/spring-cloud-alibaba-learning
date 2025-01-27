@@ -1,0 +1,41 @@
+spring:
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          name-server: 192.168.3.200:9876
+#        bindings:
+#          TopicSendOutput:
+#            producer:
+#              sync: true
+#          Topic-TAG1-Input:
+#            consumer:
+#              orderly: true
+      bindings:
+        output:
+          destination: TopicTest1
+          group: PRODUCER_GROUP_DEMO_1
+        input:
+          destination: TopicTest1
+          group: PRODUCER_GROUP_DEMO_1
+        TopicSendOutput:
+          destination: TopicTest2
+          content-type: application/json
+          group: PRODUCER_GROUP_DEMO_2
+        Topic-TAG1-Input:
+          destination: TopicTest2
+          content-type: application/json
+          group: PRODUCER_GROUP_DEMO_2
+        Topic-TAG2-Input:
+          destination: TopicTest2
+          content-type: application/json
+          group: PRODUCER_GROUP_DEMO_3
+        transactionOutput:
+          destination: TopicTransaction
+          group: OrderTransactionGroup
+        transactionInput:
+          destination: TopicTransaction
+          group: OrderTransactionGroup
+
+server:
+  port: 8081

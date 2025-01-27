@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          name-server: 192.168.3.200:9876
+      bindings:
+        input:
+          destination: TopicTest1
+          group: PRODUCER_GROUP_DEMO_1
+server:
+  port: 8082
