@@ -1,8 +1,6 @@
 dubbo:
-  protocol:
-    port: 20881
   cloud:
-    subscribed-services: spring-cloud-dubbo-provider
+    subscribed-services: spring-cloud-dubbo-provider-20880
 
 spring:
   application:

@@ -8,7 +8,7 @@ import org.springframework.messaging.Message;
 import org.springframework.stereotype.Component;
 
 @Component
-@RocketMQTransactionListener(txProducerGroup = "OrderTransactionGroup")
+@RocketMQTransactionListener
 public class TransactionMsgListener implements RocketMQLocalTransactionListener {
 
     @Override

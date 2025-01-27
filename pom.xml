@@ -10,9 +10,9 @@
 
     <modules>
         <module>spring-cloud-alibaba-api</module>
-        <module>spring-cloud-alibaba-dubbo-provider</module>
+        <module>spring-cloud-alibaba-dubbo-provider-20880</module>
         <module>spring-cloud-alibaba-dubbo-consumer</module>
-        <module>spring-cloud-alibaba-nacos-config</module>
+        <module>spring-cloud-alibaba-nacos-config-8080</module>
         <module>spring-cloud-alibaba-rocketmq-consumer</module>
         <module>spring-cloud-alibaba-rocketmq-producer</module>
     </modules>
@@ -23,6 +23,5 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath/>
     </parent>
-
 
 </project>

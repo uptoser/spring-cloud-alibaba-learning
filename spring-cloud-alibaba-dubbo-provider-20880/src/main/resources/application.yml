@@ -8,7 +8,7 @@ dubbo:
 
 spring:
   application:
-    name: spring-cloud-dubbo-provider
+    name: spring-cloud-dubbo-provider-20880
   cloud:
     nacos:
       discovery:

@@ -1,8 +1,6 @@
 package com.uptoser.spring.cloud.alibaba.rockermq.producter;
 
 import com.uptoser.spring.cloud.alibaba.rockermq.producter.config.CustomChannelBinder;
-import org.apache.rocketmq.spring.core.RocketMQTemplate;
-import org.apache.rocketmq.spring.support.RocketMQHeaders;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.stream.annotation.EnableBinding;
