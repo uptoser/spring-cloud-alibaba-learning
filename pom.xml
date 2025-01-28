@@ -22,6 +22,10 @@
         <module>spring-cloud-alibaba-sentinel-8090</module>
         <module>spring-cloud-alibaba-sentinel-dynamic-8091</module>
         <module>spring-cloud-alibaba-sentinel-dubbo-provider-20890</module>
+        <module>spring-cloud-alibaba-seata-account-provider</module>
+        <module>spring-cloud-alibaba-seata-order-provider</module>
+        <module>spring-cloud-alibaba-seata-repo-provider</module>
+        <module>spring-cloud-alibaba-seata-rest-8080</module>
     </modules>
     <dependencyManagement>
         <dependencies>
